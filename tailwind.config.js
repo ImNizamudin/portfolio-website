@@ -4,16 +4,17 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
-      animation: {
-        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'bounce': 'bounce 1s infinite',
-      },
       colors: {
-        slate: {
-          800: '#1e293b',
-          900: '#0f172a',
+        light: {
+          primary: '#3b82f6',
+          background: '#f8fafc',
+          surface: '#ffffff',
+          text: '#1e293b',
+          textSecondary: '#64748b',
+          border: '#e2e8f0',
         }
       }
     },

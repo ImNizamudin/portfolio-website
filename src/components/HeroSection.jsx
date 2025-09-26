@@ -66,7 +66,7 @@ const HeroSection = ({ scrollToSection }) => {
             </div>
 
             {/* My Story Button */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+            <div className="flex items-center flex-nowrap gap-4 pt-2">
                 <button 
                     onClick={() => scrollToSection('projects')}
                     className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"

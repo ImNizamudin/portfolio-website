@@ -71,6 +71,60 @@ button:focus-visible {
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-text: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-border: #334155;
+}
+
+.light {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-border: #e2e8f0;
+}
+
+.dark {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-text: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-border: #334155;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer components {
+  .bg-primary {
+    background-color: var(--color-bg);
+  }
+  
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+  
+  .text-primary {
+    color: var(--color-text);
+  }
+  
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+  
+  .border-primary {
+    border-color: var(--color-border);
+  }
+} */
+
 /* Custom animations for enhanced studio effect */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
